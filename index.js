@@ -13,32 +13,9 @@ const Subject = require('./models/Subject');
 const { MONGODB } = require('./config');
 
 //type definition
-const typeDefs = gql`
-    type Subject{
-        id: ID!
-        subjectName: String!
-        createdAt: String!
-        username: String!
-    }
-    type Query{
-        getSubjects: [Subject]
-    }
-`
 
 
-const resolvers = {
-    Query: {
-        async getSubjects() {
-            //incase query fails
-            try {
-                const subjects = await Subject.find();
-                return subjects;
-            } catch (err) {
-                throw new Error(err);
-            }
-        }
-    }
-};
+
 
 //my apollo server
 const server = new ApolloServer({
