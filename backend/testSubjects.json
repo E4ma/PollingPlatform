@@ -1,0 +1,53 @@
+{
+  "subjects": {
+    "itemA": {
+        "albumId": 1,
+        "id": 1,
+        "title": "Subject 1",
+        "description": "adhhvduhhsduhvuhhfv",
+        "width": 5616,
+        "height": 3744
+    },
+    "itemB": {
+        "albumId": 1,
+        "id": 2,
+        "title": "Subject 2",
+        "description": "adhhvduhhsduhvuhhfv",
+        "width": 5616,
+        "height": 3744
+    },
+    "itemC": {
+        "albumId": 1,
+        "id": 3,
+        "title": "Subject 3",
+        "description": "adhhvduhhsduhvuhhfv",
+        "width": 5616,
+        "height": 3744
+      },
+    "itemD": {
+        "albumId": 2,
+        "id": 4,
+        "title": "Subject 4",
+        "description": "adhhvduhhsduhvuhhfv",
+        "width": 5616,
+        "height": 3744
+      },
+    "itemE": {
+        "albumId": 2,
+        "id": 5,
+        "title": "Subject 5",
+        "description": "adhhvduhhsduhvuhhfv",
+        "width": 5616,
+        "height": 3744
+      },
+    "itemF": {
+        "albumId": 2,
+        "id": 6,
+        "title": "Subject 6",
+        "description": "adhhvduhhsduhvuhhfv",
+        "width": 5616,
+        "height": 3744
+      }
+    }
+    }
+
